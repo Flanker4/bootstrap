@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default rounded borders and increase the bottom margin */
+        .navbar {
+            margin-bottom: 50px;
+            border-radius: 0;
+        }
+
+        .navbar .navbar-nav {
+            display: inline-block;
+            float: none;
+            vertical-align: top;
+        }
+
+        .navbar .navbar-collapse {
+            text-align: center;
+        }
+
+        .vertical-center {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+        }
+
+        .white {
+            background-color: #ffffff;
+        }
+
+        .gray {
+            background-color: #fbfafa
+        }
+
+        .col-md-6 {
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+    </style>
+</head>
+<body class="gray">
+<img src="img/top.png" class="img-responsive" alt="Image">
+<div class="text-muted">
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default white">
+
+
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">MENU</a></li>
+                <li><a href="#">CATERING</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+
+        </div><!--/.nav-collapse -->
+
+    </nav>
+
+    <div class="text-center">
+        <img src="img/dog.png" alt="HotDog">
+        <h2>Dirty Dogs serves all-beef, vegan and<br>vegatagian hot dogs</h2>
+        <p>
+            <a class="btn btn-lg btn-primary " role="button">More Dogs'n Make Em Hot</a>
+        </p>
+    </div>
+    <br><br>
+    <div class="white">
+        <div class="row vertical-center">
+            <div class="col-md-6"><img src="img/hot1.png" class="img-responsive" alt="Image"></div>
+            <div class="col-md-5 col-md-offset-1 ">
+
+                <h4>Gormet All Beef Hotdogs</h4>
+                <p>
+                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque
+                    ornare sem lacinia quam venenatis vestibulum.
+                </p>
+
+            </div>
+        </div>
+        <div class="row vertical-center">
+            <div class="col-md-5 col-md-offset-1">
+                <h4>Vegan Hotdogs</h4>
+                <p>
+                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque
+                    ornare sem lacinia quam venenatis vestibulum.
+                </p>
+            </div>
+            <div class="col-md-6"><img src="img/hot2.png" class="img-responsive" alt="Image"></div>
+        </div>
+        <div class="row vertical-center">
+            <div class="col-md-6"><img src="img/hot3.png" class="img-responsive" alt="Image"></div>
+            <div class="col-md-5 col-md-offset-1">
+                <h4>Vegitarian Hotdogs</h4>
+                <p>
+                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque
+                    ornare sem lacinia quam venenatis vestibulum.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div> <!-- /container -->
+
+<footer class="container-fluid text-muted">
+    <div class="col-md-6"> ® 2016 Dirty Dogs all rights reserved</div>
+    <div class="col-md-6 text-right">274 Marconi Blvd. Columbus, Ohio 43215 | 614.538.0095 | <a class="text-muted">Contact
+        Us</a></div>
+</footer>
+
+</body>
+</html>
+
